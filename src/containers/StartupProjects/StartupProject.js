@@ -15,14 +15,14 @@ export default function StartupProject() {
   }
   return (
     <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="projects">
+      <div id="projects">
         <div>
           <h1 className="skills-heading">{bigProjects.title}</h1>
           <p
             className={
               isDark
-                ? "dark-mode project-subtitle"
-                : "subTitle project-subtitle"
+                ? "dark-mode project-subtitle pad"
+                : "subTitle project-subtitle pad"
             }
           >
             {bigProjects.subtitle}
