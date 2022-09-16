@@ -12,10 +12,10 @@ const greeting = {
   username: "Suraj Kumar",
   title: "Hi all, I'm Suraj",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Java and some other cool libraries and frameworks."
+    "A passionate DevOps engineer 🚀 having an experience of building,deployment and maintaining Web and Mobile applications with Docker/ Kubernetes / JavaScript / ReactJs / Nodejs / Java/ and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/10up6ACFHeIw0kJUu2AMvPAn5xq4SM-zN/view?usp=sharing",
+    "https://drive.google.com/file/d/1VG7wzgg71rM-dBj0SkPIm5Bzl5VDoHk_/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -30,7 +30,7 @@ const socialMediaLinks = {
   medium: "https://medium.com/@srjrnw9",
   stackoverflow: "https://stackoverflow.com/users/15656299/suraj-kumar",
   instagram: 'https://www.instagram.com/suraj_parmar09/',
-  twitter: 'https://twitter.com/Surajku61172147?s=08',
+  twitter: 'https://twitter.com/SurajKumar_09',
   display: true // Set true to display this section, defaults to false
 };
 
@@ -54,16 +54,16 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
@@ -146,11 +146,11 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend / Design", //Insert stack or technology you have experience in
+      Stack: "DevOps", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "frontend/Backend Development",
       progressPercentage: "75%"
     },
     {
@@ -212,7 +212,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://sfp.scriptindia.org/"
+          url: "https://surajkumar98012.github.io/Script-Fellowship-Program/"
         }
         //  you can add extra buttons here.
       ]
@@ -230,12 +230,12 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/1.jpeg"),
-      projectName: "EarthQuake Alert app",
-      projectDesc: "This App shows the earthquake notification with real time updates",
+      projectName: "GGI Student Pannel",
+      projectDesc: "GGI Student App is a college management application which basically managed most of the activity of college.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "https://github.com/Surajkumar98012/EarthQuake-Alert-App"
+          name: "Visit Github Repo",
+          url: "https://github.com/Surajkumar98012/GGIStudentAppp"
         }
       ]
     },
@@ -301,7 +301,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://yoeventplanners.in/"
+          url: "https://surajkumar98012.github.io/Weeding-Planner-Website/"
          
         }
       ]
@@ -528,7 +528,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "Surajku61172147?s=08", //Replace "twitter" with your twitter username without @
+  userName: "SurajKumar_09", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
