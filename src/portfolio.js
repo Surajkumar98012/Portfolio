@@ -15,7 +15,7 @@ const greeting = {
     "A passionate DevOps engineer 🚀 having an experience of building,deployment and maintaining Web and Mobile applications with Docker/ Kubernetes / JavaScript / ReactJs / Nodejs / Java/ and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1VG7wzgg71rM-dBj0SkPIm5Bzl5VDoHk_/view?usp=sharing",
+    "https://drive.google.com/file/d/10up6ACFHeIw0kJUu2AMvPAn5xq4SM-zN/view?usp=share_link",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
